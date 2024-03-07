@@ -1,8 +1,7 @@
 - 👋 Hi, I’m @Tekkermester
 - 👀 I’m interested in Py, maybe html, css, Js
 - 🌱 I’m currently learning Py
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 📫 How to reach me Dc.: alma02_
 - 😄 Pronouns: google translate: hungarian
 - ⚡ Fun fact:
             1/3 = 0.3333333333333333
