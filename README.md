@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Tekkermester
-- 👀 I’m interested in Py, maybe html, css, Js
+- 👀 I’m interested in Python
 - 🌱 I’m currently learning Py
 - 📫 How to reach me Dc.: alma02_
 - 😄 Pronouns: google translate: hungarian
