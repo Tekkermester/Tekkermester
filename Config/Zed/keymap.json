@@ -1,0 +1,85 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    },
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore"
+    },
+  },
+  {
+    "bindings": {
+      "cmd-shift-h": "menu::Cancel",
+    },
+  },
+  {
+    "bindings": {
+      "cmd-ü": [
+        "zed::DecreaseBufferFontSize",
+        {
+          "persist": false,
+        },
+      ],
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-ö": [
+        "editor::ToggleComments",
+        {
+          "advance_downwards": false,
+        },
+      ],
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-shift-j": "workspace::ToggleBottomDock",
+    },
+  },
+  {
+    "context": "(Workspace && !Terminal)",
+    "bindings": {
+      "alt-cmd-r": "task::Spawn",
+    },
+  },
+  {
+    "context": "(Workspace && !Terminal)",
+    "bindings": {
+      "ctrl-r": [
+        "task::Rerun",
+        {
+          "reevaluate_context": false,
+        },
+      ],
+    },
+  },
+  {
+      "context": "VimControl && !menu",
+      "bindings": {
+          "!": "vim::EndOfLine",
+          "é": "vim::RepeatFind",
+          "ő": "vim::StartOfParagraph",
+          "ú": "vim::EndOfParagraph"
+      }
+    },
+  {
+    "context": "((Editor && vim_mode == waiting) && (vim_operator == ys || vim_operator == cs))",
+    "bindings": {
+      "escape": "vim::SwitchToNormalMode"
+    }
+  }
+]
